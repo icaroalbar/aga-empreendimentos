@@ -1,4 +1,4 @@
-import { CompanyProps } from "@/components/@types";
+import { CompanyProps } from "@/@types";
 
 export const data: CompanyProps[] = [
   {

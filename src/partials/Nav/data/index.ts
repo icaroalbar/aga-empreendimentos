@@ -1,4 +1,4 @@
-import { NavProps } from "@/components/@types";
+import { NavProps } from "@/@types";
 
 export const data: NavProps[] = [
   {

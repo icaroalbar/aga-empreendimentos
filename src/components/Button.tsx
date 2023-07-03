@@ -1,7 +1,7 @@
 import { clsx } from "clsx";
 import { ReactElement } from "react";
 import { iconProcessing } from "../utils/icons";
-import { ButtonProps } from "./@types";
+import { ButtonProps } from "../@types";
 
 export const Button = ({
   title = "saiba mais",

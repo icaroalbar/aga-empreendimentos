@@ -1,4 +1,4 @@
-import { HeaderProps } from "@/components/@types";
+import { HeaderProps } from "@/@types";
 
 export const data: HeaderProps[] = [
   {

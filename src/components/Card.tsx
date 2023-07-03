@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { AboutProps } from "./@types";
+import { AboutProps } from "../@types";
 
 export function Card({ title, icon, content, key }: AboutProps): ReactElement {
   return (

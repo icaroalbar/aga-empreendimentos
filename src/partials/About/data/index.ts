@@ -1,4 +1,4 @@
-import { AboutProps } from "@/components/@types";
+import { AboutProps } from "@/@types";
 import { iconMission, iconView, iconValue } from "@/utils/icons";
 
 export const data: AboutProps[] = [

@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { InputProps } from "./@types";
+import { InputProps } from "../@types";
 
 export function Input({
   placeholder,

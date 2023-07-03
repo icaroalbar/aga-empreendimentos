@@ -1,4 +1,4 @@
-import { ContactProps, InputProps } from "@/components/@types";
+import { ContactProps, InputProps } from "@/@types";
 
 export const dataInput = [
   {

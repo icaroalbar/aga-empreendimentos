@@ -1,4 +1,4 @@
-import { FooterProps } from "@/components/@types";
+import { FooterProps } from "@/@types";
 
 export const data: FooterProps[] = [
   {
@@ -31,7 +31,7 @@ export const data: FooterProps[] = [
       },
       {
         label: "Política de privacidade",
-        href: "/",
+        href: "/policy",
       },
       {
         label: "Área do cliente",

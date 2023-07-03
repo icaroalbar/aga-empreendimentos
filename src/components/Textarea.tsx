@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { TextareaProps } from "./@types";
+import { TextareaProps } from "../@types";
 
 export function Textarea({
   placeholder,
