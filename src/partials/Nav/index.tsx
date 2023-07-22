@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function Nav(): ReactElement {
   return (
-    <nav className="flex z-50 fixed w-full justify-end items-center px-20 py-5 bg-primary-10 border-b-4 border-secondary-10 shadow-lg">
+    <nav className="flex z-50 fixed w-full justify-end items-center px-20 py-7 bg-primary-10 border-b-4 border-secondary-10 shadow-lg">
       <div className="absolute top-2 left-24">
         <Link href="/">
           <Image
@@ -16,7 +16,7 @@ export function Nav(): ReactElement {
           />
         </Link>
       </div>
-      <ul className="flex gap-5">
+      {/* <ul className="flex gap-5">
         {data.map((item, index) => (
           <li key={index}>
             <Link
@@ -27,7 +27,7 @@ export function Nav(): ReactElement {
             </Link>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </nav>
   );
 }

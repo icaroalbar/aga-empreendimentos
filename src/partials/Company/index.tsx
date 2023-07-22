@@ -5,11 +5,11 @@ import { data } from "./data";
 export function Company(): ReactElement {
   return (
     <section className="grid grid-cols-5 h-[85vh]">
-      <div className="col-span-2 bg-primary-10" />
+      <div className="col-span-2 hidden lg:flex bg-primary-10" />
       {data.map((item, index) => (
         <div
           key={index}
-          className="col-span-3 flex flex-col gap-y-4 px-10 pt-44"
+          className="col-span-5 lg:col-span-3 text-center lg:text-start flex flex-col justify-center gap-y-4 px-10"
         >
           <h1 className="font-medium capitalize text-3xl">{item.title}</h1>
           <p className="text-primary-10 font-light text-xl text-justify">

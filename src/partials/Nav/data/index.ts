@@ -9,10 +9,10 @@ export const data: NavProps[] = [
     label: "quem somos",
     href: "/company",
   },
-  {
-    label: "serviços",
-    href: "/services",
-  },
+  // {
+  //   label: "serviços",
+  //   href: "/services",
+  // },
   {
     label: "contato",
     href: "/contact",

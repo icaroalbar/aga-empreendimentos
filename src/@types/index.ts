@@ -35,9 +35,7 @@ export interface CompanyProps extends TitleProps, ContentProps {
   subtitle: string;
 }
 
-export interface AboutProps extends TitleProps, ContentProps, IconProps {
-  key?: any;
-}
+export interface AboutProps extends TitleProps, ContentProps, IconProps {}
 
 export interface ContactProps extends TitleProps {
   subtitle: string;

@@ -4,9 +4,12 @@ import { data } from "./data";
 
 export function Header(): ReactElement {
   return (
-    <section className="bg-header bg-cover h-[98vh] flex px-10 justify-start items-center">
+    <section className="bg-header bg-cover bg-right py-36 md:py-0 md:h-screen flex px-10 justify-start items-center">
       {data.map((item, index) => (
-        <div key={index} className="text-white flex flex-col gap-y-2 w-2/4">
+        <div
+          key={index}
+          className="text-white flex flex-col gap-y-2 text-center md:text-start lg:w-2/4"
+        >
           <h1 className="text-4xl uppercase tracking-wide leading-[3rem]">
             {item.title}
           </h1>

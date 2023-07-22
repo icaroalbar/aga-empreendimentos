@@ -1,12 +1,9 @@
 import { ReactElement } from "react";
 import { AboutProps } from "../@types";
 
-export function Card({ title, icon, content, key }: AboutProps): ReactElement {
+export function Card({ title, icon, content }: AboutProps): ReactElement {
   return (
-    <div
-      key={key}
-      className="col-span-1 flex flex-col items-center text-primary-10 my-10"
-    >
+    <div className="col-span-3 lg:col-span-1 flex flex-col items-center text-primary-10 my-10">
       <div className="bg-primary-20 w-40 h-40 flex justify-center items-center text-white text-8xl rounded-full shadow-xl">
         {icon}
       </div>

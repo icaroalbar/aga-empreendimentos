@@ -8,37 +8,37 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 
 export function Contact(): ReactElement {
-  const [buttonDisables, setButtonDisabled] = useState<boolean>(false);
+  const [buttonDisabled, setButtonDisabled] = useState<boolean>(false);
   const {
     register,
     handleSubmit,
     reset,
-    formState: { errors },
-  } = useForm({
-    defaultValues: {
-      name: "",
-      email: "",
-      phone: "",
-      message: "",
-    },
-  });
+    // formState: { errors },
+  } = useForm();
 
   const handleSend: SubmitHandler<any> = (data: any) => {
-    setButtonDisabled(true);
-    axios.post("/api/hello", data);
-    reset();
-    toast.success("Cliente cadastrado com sucesso!", {
-      position: toast.POSITION.TOP_RIGHT,
-    });
-    setButtonDisabled(false);
+    try {
+      setButtonDisabled(true);
+      axios.post("/api/hello", data);
+      reset();
+      toast.success("Mensagem enviada com sucesso!", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      setButtonDisabled(false);
+    } catch (error) {
+      console.error(error);
+      toast.error("Ocorreu um erro. Tente novamente mais tarde.", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+    }
   };
 
   return (
     <section>
       <ToastContainer />
       <div className="grid grid-cols-2 border-b-2 border-secondary-10">
-        <div className="col-span-1 bg-contact bg-cover h-[90vh]" />
-        <div className="col-span-1 bg-primary-10 p-10">
+        <div className="hidden lg:flex col-span-1 bg-contact bg-cover h-[90vh]" />
+        <div className="col-span-2 lg:col-span-1 bg-primary-10 p-10">
           {data.map((item, index) => (
             <div
               key={index}
@@ -74,7 +74,7 @@ export function Contact(): ReactElement {
               type="submit"
               title="enviar"
               size="full"
-              disabled={buttonDisables}
+              disabled={buttonDisabled}
             />
           </form>
         </div>
