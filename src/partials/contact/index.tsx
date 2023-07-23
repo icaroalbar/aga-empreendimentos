@@ -34,7 +34,7 @@ export function Contact(): ReactElement {
   };
 
   return (
-    <section>
+    <section id="contact">
       <ToastContainer />
       <div className="grid grid-cols-2 border-b-2 border-secondary-10">
         <div className="hidden lg:flex col-span-1 bg-contact bg-cover h-[90vh]" />

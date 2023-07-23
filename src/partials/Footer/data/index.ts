@@ -6,15 +6,15 @@ export const data: FooterProps[] = [
     links: [
       {
         label: "Quem somos",
-        href: "/",
+        href: "#about",
       },
-      {
-        label: "Serviços",
-        href: "/",
-      },
+      // {
+      //   label: "Serviços",
+      //   href: "/",
+      // },
       {
         label: "Contato",
-        href: "/",
+        href: "#contact",
       },
     ],
   },
@@ -23,20 +23,20 @@ export const data: FooterProps[] = [
     links: [
       {
         label: "HP Capital",
-        href: "/",
+        href: "https://www.hpcap.com.br/",
       },
       {
         label: "HP Bank",
-        href: "/",
+        href: "https://www.hpcap.com.br/",
       },
-      {
-        label: "Política de privacidade",
-        href: "/policy",
-      },
-      {
-        label: "Área do cliente",
-        href: "/",
-      },
+      // {
+      //   label: "Política de privacidade",
+      //   href: "/policy",
+      // },
+      // {
+      //   label: "Área do cliente",
+      //   href: "/",
+      // },
     ],
   },
   {
@@ -44,11 +44,11 @@ export const data: FooterProps[] = [
     links: [
       {
         label: "Segunda a sexta, 08h às 18h",
-        href: "/",
+        href: "#/",
       },
       {
         label: "contato@agaempreendimentos.com",
-        href: "/",
+        href: "#contact",
       },
     ],
   },

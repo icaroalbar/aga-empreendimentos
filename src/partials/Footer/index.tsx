@@ -11,8 +11,8 @@ export function Footer(): JSX.Element {
             Onde estamos
           </h3>
           <a
-            href="#"
-            target="_blank"
+            href="#/"
+            // target="_blank"
             className="transition-colors text-sm hover:text-white"
           >
             Av. Pref. Silvio Picanço, 463 <br />

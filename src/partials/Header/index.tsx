@@ -14,7 +14,9 @@ export function Header(): ReactElement {
             {item.title}
           </h1>
           <h3 className="text-3xl font-light mb-6">{item.subtitle}</h3>
-          <Button title="saiba mais" size="md" />
+          <a href="#contact">
+            <Button title="saiba mais" size="md" />
+          </a>
         </div>
       ))}
     </section>

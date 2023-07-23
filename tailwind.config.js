@@ -24,6 +24,7 @@ module.exports = {
         company: "url('/images/company.png')",
         mvv: "url('/images/mvv.png')",
         contact: "url('/images/contact.jpg')",
+        about: "url('/images/about.jpg')",
       },
     },
   },

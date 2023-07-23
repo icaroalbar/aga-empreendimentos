@@ -5,7 +5,7 @@ import { data } from "./data";
 export function Company(): ReactElement {
   return (
     <section className="grid grid-cols-5 h-[85vh]">
-      <div className="col-span-2 hidden lg:flex bg-primary-10" />
+      <div className="col-span-2 hidden lg:flex bg-about bg-cover" />
       {data.map((item, index) => (
         <div
           key={index}
@@ -16,7 +16,9 @@ export function Company(): ReactElement {
             {item.content}
           </p>
           <h4 className="font-semibold text-xl">{item.subtitle}</h4>
-          <Button />
+          <a href="#contact">
+            <Button title="saiba mais" size="md" />
+          </a>
         </div>
       ))}
     </section>

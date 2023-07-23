@@ -4,7 +4,7 @@ import { Card } from "../../components/Card";
 
 export function About(): ReactElement {
   return (
-    <section className="bg-white p-20 gap-x-5">
+    <section id="about" className="bg-white p-20 gap-x-5">
       <div className="text-center">
         <h1 className="text-4xl capitalize">quem somos</h1>
         <p className="font-light text-lg my-5">
