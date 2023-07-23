@@ -42,7 +42,7 @@ export function Contact(): ReactElement {
           {data.map((item, index) => (
             <div
               key={index}
-              className="text-white text-center flex flex-col gap-2"
+              className="text-white text-center md:text-start flex flex-col gap-2"
             >
               <h1 className="text-2xl">{item.title}</h1>
               <p className="font-light">{item.subtitle}</p>

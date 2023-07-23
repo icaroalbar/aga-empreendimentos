@@ -8,10 +8,8 @@ export function About(): ReactElement {
       <div className="text-center">
         <h1 className="text-4xl capitalize">quem somos</h1>
         <p className="font-light text-lg my-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit odio
-          quidem necessitatibus accusantium corrupti fuga natus? Provident quos
-          perferendis autem obcaecati labore doloribus omnis nam eligendi, alias
-          consectetur quaerat atque.
+          Somos uma das maiores contrutoras da cidade de Niterói no Rio de
+          Janeiro, que atende grandes serviços de empreendimentos imobiliários.
         </p>
       </div>
       <div className="grid grid-cols-3">

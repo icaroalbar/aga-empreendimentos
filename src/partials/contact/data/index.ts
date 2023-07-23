@@ -20,8 +20,8 @@ export const dataInput = [
 
 export const data: ContactProps[] = [
   {
-    title: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    title: "Fale conosco",
     subtitle:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, rerum numquam id tempore perspiciatis amet non iusto quia dignissimos aspernatur repellat quae nostrum possimus dolorum alias.",
+      "Estamos dispostos a sanar quaisquer dúvidas que possam surgir. Caso queira falar conosco, basta preencher o formulário abaixo:",
   },
 ];
